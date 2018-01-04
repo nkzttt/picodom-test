@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <style>
+        div {
+            padding: 10px;
+        }
+        input {
+            width: 3em;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <label>
+        りんご（100円）
+        <input type="number" value="0" min="0" name="apple" data-price="100">個
+    </label>
+</div>
+<div>
+    <label>
+        なし（130円）
+        <input type="number" value="0" min="0" name="pear" data-price="130">個
+    </label>
+</div>
+<div>
+    <label>
+        ぶどう（350円）
+        <input type="number" value="0" min="0" name="grape" data-price="350">個
+    </label>
+</div>
+<div>
+    <button>購入する</button>
+</div>
+<div id="result"></div>
+<script src="index.js"></script>
+</body>
+</html>
